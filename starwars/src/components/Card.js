@@ -22,7 +22,9 @@ const RMCard = (props) => {
           <Card style={BGcolor}>
             <CardBody style={BGcolor}>
               <CardTitle>Name: {props.name}</CardTitle>
-              <CardText>Status: {props.status}, Species: {props.species}</CardText>
+              <CardText>Status: {props.status}</CardText>
+              <CardText>Species: {props.species}</CardText>
+              <CardText>Gender: {props.gender}</CardText>
               <img src={props.image} />
             </CardBody>
           </Card>

@@ -35,6 +35,7 @@ return (
             status = {item.status}
             species = {item.species}
             image = {item.image}
+            gender = {item.gender}
             />
             
         })}
